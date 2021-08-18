@@ -5,7 +5,6 @@ import Footer from './components/Footer'
 import './App.css';
 
 import SecurityIcon from '@material-ui/icons/Security'
-import AccessAlarmsIcon from '@material-ui/icons/AccessAlarms';
 import { Typography } from '@material-ui/core';
 
 const theme = createTheme({
@@ -63,16 +62,14 @@ function App() {
          <div className={classes.wrapper}>
             {/* https://material-ui.com/components/icons/ */}
             <Typography variant="h4" className={classes.bigSpace} color="primary">
-              At Rocket Pablos
+              At Rocket Pablos v0.3
             </Typography>
             <Typography variant="h5" className={classes.littleSpace} color="primary">
               Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum 
             </Typography>
             <div className={`${classes.grid} ${classes.bigSpace}`}>
               <Grid icon={<SecurityIcon style={{fill: "#4360A6", height: "125", width: "125"}}/>} title="Secure1" btnTitle="Show me more" /> 
-              <Grid icon={<AccessAlarmsIcon style={{fill: "#7310C6", height: "125", width: "125"}}/>} title="Secure2" btnTitle="Show me more" />     
-              <Grid icon={<AccessAlarmsIcon style={{fill: "#4360A6", height: "125", width: "125"}}/>} title="Secure3" btnTitle="Show me more" />     
-            </div>
+              </div>
           </div>  
 
           <div className={classes.bigSpace}>
