@@ -4,7 +4,7 @@ import Grid from './components/Grid'
 import Footer from './components/Footer'
 import './App.css';
 
-import SecurityIcon from '@material-ui/icons/Security'
+
 import { Typography } from '@material-ui/core';
 
 const theme = createTheme({
@@ -68,7 +68,8 @@ function App() {
               Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum 
             </Typography>
             <div className={`${classes.grid} ${classes.bigSpace}`}>
-              <Grid icon={<SecurityIcon style={{fill: "#4360A6", height: "125", width: "125"}}/>} title="Secure1" btnTitle="Show me more" /> 
+              {/* <Grid icon={<SecurityIcon style={{fill: "#4360A6", height: "125", width: "125"}}/>} title="Secure1" btnTitle="Show me more" />  */}
+              Button...
               </div>
           </div>  
 
